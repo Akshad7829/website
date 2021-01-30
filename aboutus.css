@@ -1,0 +1,249 @@
+body {
+  background: #cdd0cb;
+}
+
+.heading {
+  text-align: center;
+  font-family: sans-serif;
+
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.change{
+  color: blue;
+}
+
+h1 {
+  box-sizing: border-box;
+  width: 20%;
+  border: solid black 8px;
+  padding: 5px;
+  margin-left: 35rem;
+  color: -webkit-linear-gradient(#eee, #333);
+  border-radius: 2%;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.cmp {
+  margin-left: 1rem;
+}
+
+.camp {
+  margin-left: 10rem;
+}
+
+
+
+.about {
+  font-weight: bold;
+  color: black;
+  text-align: justify;
+  position: relative;
+  z-index: 1;
+  padding: 2%;
+}
+
+
+
+.image {
+  width: 150px;
+  height: 150px;
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+
+.sir {
+  text-align: left;
+}
+
+.mam-info {
+  text-align: justify;
+  position: relative;
+  z-index: 5;
+  font-weight: bold;
+  color: black;
+  padding: 2%;
+}
+
+.head {
+  margin-top: 2rem;
+  margin-left: 35rem;
+  font-weight: bolder;
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.img {
+  border: 8px solid black;
+  padding: 1%;
+  margin-top: 0.5rem;
+  position: relative;
+  z-index: auto;
+  border-radius: 2rem;
+}
+.card{
+  border-radius: 10px;
+}
+.card-body{
+  border-radius: 10px;
+}
+.row {
+  margin-bottom: 30rem;
+  position: relative;
+  margin: 3rem;
+}
+
+.four-img {
+  margin-top: 2px;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.main {
+  border-radius: 20px;
+}
+
+
+
+.sir-info {
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.tpo-desk{
+
+  font-size: 1.3rem;
+  color: white;
+  background: black;
+  margin: 3rem;
+  text-align: center;
+
+}
+
+
+
+.vl {
+  border-left: 6px solid black;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 50px;
+}
+
+
+.add {
+  margin-left: 10rem;
+}
+
+.carousel {
+  margin: 3rem;
+}
+
+@media screen and (max-width:769px) and (min-width:256px) {
+  .vl {
+    transform: rotate(90deg);
+    position: relative;
+    margin-top: 1rem;
+  }
+
+  .row {
+    padding: 1%;
+  }
+
+  .card {
+    margin: 3%;
+  }
+
+  .cmp {
+    width: 10rem;
+    margin-left: 0.5rem;
+  }
+
+  .card-header {
+    height: 10rem;
+  }
+
+  .camp {
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 2rem;
+  }
+
+  .amclick {
+    margin-top: 1rem;
+  }
+
+  .aeclick {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 1270px) and (min-width: 800px) {
+  .clg-info {
+    margin-left: 0.5rem;
+    padding: 2%;
+    height: 10px;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .clg-image {
+    width: 20rem;
+    position: relative;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width:800px) and (min-width:256px) {
+
+  .head {
+    margin-left: 12rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width:800px) and (min-width:700px) {
+
+  .head {
+    margin-left: 18rem;
+  }
+
+  .heads {
+    font-size: 30px;
+    border: 1px solid #fff;
+  }
+
+  .row {
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width:1300px) and (min-width:256px) {
+  .row {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 3rem;
+  }
+
+  .img {
+    width: 100px;
+    height: 150px;
+    padding: 2%;
+    margin-left: 1rem;
+  }
+
+  @media screen and (max-width:800px) and (min-width:767px) {
+    .row {
+      margin-top: 3rem;
+    }
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
